@@ -1,6 +1,8 @@
 body {
   background-color: #ffffff;
   color: #666666;
+  background: linear-gradient(to bottom, #eeeeee, #ffffff);
+  background-attachment: fixed;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -8,6 +10,14 @@ header {
   background-color: #003058;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  background-image: url("images/utahtechlogo.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+  padding-left: 1em;
+  margin-bottom: 0;
 }
 header h1 {
   line-height: 140%;
@@ -18,24 +28,28 @@ nav {
   background-color: #f3f3f3;
 }
 h2 {
-    color: #424242;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #424242;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 dt {
   color: #003058;
   font-weight: bold;
 }
-.ut {
-  color: #BA1C21;
-  font-weight: bold;
-}
 footer {
-  font-size: .70rem;
+  font-size: 0.7rem;
   font-style: italic;
   text-align: center;
+}
+.ut {
+  color: #ba1c21;
+  font-weight: bold;
 }
 #wrapper {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  background-color: #ffffff;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 0px, 3px, 3px, rgba(66, 66, 66, 0.3);
 }
